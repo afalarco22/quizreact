@@ -41,6 +41,7 @@
 
 .contenedor-principal{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
@@ -59,12 +60,25 @@
 .formulario-cliente{
   display: flex;
   flex-direction: column;
-  width: 30vw;
+  width: 25vw;
 }
 
 .formulario-proveedor{
   display: flex;
   flex-direction: column;
-  width: 30vw;
+  width: 25vw;
+  
 
+}
+
+.formulario-producto{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+
+}
+
+.contenedor-formularios{
+  display: flex;
+  
 }

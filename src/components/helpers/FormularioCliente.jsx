@@ -6,22 +6,22 @@ export default function FormularioCliente() {
     <aside className='contenedor-fomulario-cliente'>
         <form className='formulario-cliente'>
           <label className='label-nombre'>{"Nombre del cliente"}</label>
-          <Input placeholder='Nombre'/>
+          <Input placeholder='Nombre' type={"text"}/>
 
           <label className='label-documento'>{"Documento"}</label>
-          <Input placeholder='Documento' />
+          <Input placeholder='Documento' type={"number"} />
 
           <label className='label-correo'>{"Correo"}</label>
-          <Input placeholder='Correo' />
+          <Input placeholder='Correo' type={"email"}  />
 
           <label className='label-correo'>{"Direccion"}</label>
-          <Input placeholder='Direccion' />
+          <Input placeholder='Direccion' type={"text"}/>
 
           <label className='label-barrio'>{"Barrio"}</label>
-          <Input placeholder='Barrio' />
+          <Input placeholder='Barrio' type={"text"}  />
 
           <label className='label-telefono'>{"Telefono Contacto"}</label>
-          <Input placeholder='Telefono' />
+          <Input placeholder='Telefono' type={"text"} />
 
         </form>
     </aside>

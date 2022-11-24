@@ -1,15 +1,13 @@
 import React from 'react'
-import FormularioCliente from '../helpers/FormularioCliente'
-import FormularioProveedor from '../helpers/FormularioProveedor'
+import ContenedorFormularios from './ContenedorFormularios'
 
 export default function Main() {
   return (
     <main className='contenedor-principal'>
-        <FormularioCliente />
-        <FormularioProveedor />
-    
-
-
+      <h1>"Maria SuculentaS"</h1>
+      <ContenedorFormularios />
+        
+        
     </main>
   )
 }

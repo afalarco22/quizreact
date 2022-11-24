@@ -6,22 +6,22 @@ export default function FormularioProveedor() {
     <aside className='contenedor-fomulario-proveedor'>
         <form className='formulario-proveedor'>
           <label className='label-nombre'>{"Nombre Proveedor"}</label>
-          <Input placeholder='Nombre'/>
+          <Input placeholder='Nombre' type={"text"}/>
 
           <label className='label-nit'>{"NIT"}</label>
-          <Input placeholder='NIT' />
+          <Input placeholder='NIT' type={"text"} />
 
           <label className='label-direccion'>{"Direccion"}</label>
-          <Input placeholder='Direccion' />
+          <Input placeholder='Direccion' type={"text"} />
 
           <label className='label-telefono'>{"Telefono"}</label>
-          <Input placeholder='Telefono' />
+          <Input placeholder='Telefono' type={"text"} />
 
           <label className='label-correo'>{"Correo"}</label>
-          <Input placeholder='Correo' />
+          <Input placeholder='Correo' type={"email"} />
 
           <label className='label-producto'>{"Nombre del producto"}</label>
-          <Input placeholder='Nombre del producto' />
+          <Input placeholder='Nombre del producto' type={"text"} />
 
           <label className='label-descripcion'>{"Descripcion"}</label>
           <textarea></textarea>
