@@ -50,3 +50,9 @@
   height: 10vh;
   background-color: brown;
 }
+
+.formulario-cliente{
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+}
