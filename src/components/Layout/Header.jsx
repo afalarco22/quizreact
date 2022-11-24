@@ -3,35 +3,30 @@ import React from "react";
 export default function Header() {
   return (
     <header className="encabezado">
-        
-      <nav className="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+      <nav className="navbar navbar-expand-lg barra-navegacion ">
+        <article className="container-fluid">
+          <aside className="collapse navbar-collapse contenedor-enlaces" id="navbarNav">
+            <ul className="navbar-nav lista">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                  Productos
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Proveedores
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Pricing
+                  Clientes
                 </a>
               </li>
-              <li cclassName="nav-item">
-                <a className="nav-link disabled">Disabled</a>
-              </li>
+              
             </ul>
-          </div>
-        </div>
+          </aside>
+        </article>
       </nav>
-
     </header>
   );
 }
