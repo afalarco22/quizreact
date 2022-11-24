@@ -40,9 +40,14 @@
 
 
 .contenedor-principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+
   width: 100vw;
   height: 80vh;
-  background-color: blueviolet;
+  background-image: url('https://sadhugrowshop.com/blog/wp-content/uploads/2020/11/Screenshot_6.jpg');
 }
 
 .pie-pagina{
@@ -54,5 +59,12 @@
 .formulario-cliente{
   display: flex;
   flex-direction: column;
-  width: 33vw;
+  width: 30vw;
+}
+
+.formulario-proveedor{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+
 }
