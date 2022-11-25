@@ -6,6 +6,7 @@ export default function Header() {
   return (
     <header className="encabezado">
       <Logo />
+      <h4>María SuculentaS</h4>
       <nav className="navbar navbar-expand-lg barra-navegacion ">
         <article className="container-fluid">
           <aside className="collapse navbar-collapse contenedor-enlaces" id="navbarNav">
