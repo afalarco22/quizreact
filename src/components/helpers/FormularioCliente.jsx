@@ -1,27 +1,31 @@
 import React from 'react'
+import Boton from './Boton'
 import Input from './Input'
+
 
 export default function FormularioCliente() {
   return (
     <aside className='contenedor-fomulario-cliente'>
         <form className='formulario-cliente'>
-          <label className='label-nombre'>{"Nombre del cliente"}</label>
+          <label className='label-nombre'>Nombre Cliente</label>
           <Input placeholder='Nombre' type={"text"}/>
 
-          <label className='label-documento'>{"Documento"}</label>
+          <label className='label-documento'>Documento</label>
           <Input placeholder='Documento' type={"number"} />
 
-          <label className='label-correo'>{"Correo"}</label>
+          <label className='label-correo'>Correo</label>
           <Input placeholder='Correo' type={"email"}  />
 
-          <label className='label-correo'>{"Direccion"}</label>
+          <label className='label-correo'>Dirección</label>
           <Input placeholder='Direccion' type={"text"}/>
 
-          <label className='label-barrio'>{"Barrio"}</label>
+          <label className='label-barrio'>Barrio</label>
           <Input placeholder='Barrio' type={"text"}  />
 
-          <label className='label-telefono'>{"Telefono Contacto"}</label>
+          <label className='label-telefono'>Telefono de contacto</label>
           <Input placeholder='Telefono' type={"text"} />
+
+          <Boton />
 
         </form>
     </aside>

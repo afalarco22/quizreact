@@ -6,15 +6,14 @@
 
 .App{
   width: 100vw;
-  height: 100vh;
-  background-color: aqua;
+ 
 }
 
 .encabezado{
   display: flex;
   width: 100%;
-  height: 10vh;
-  background-color: blanchedalmond;
+  height: 70px;
+  background-color: #f9fcfc;
 }
 
 .barra-navegacion{
@@ -38,35 +37,46 @@
   justify-content: space-evenly;
 }
 
-
 .contenedor-principal{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
-
-  width: 100vw;
-  height: 80vh;
+  justify-content: space-between;
+  width: 100%;
+  height: 900px;
   background-image: url('https://sadhugrowshop.com/blog/wp-content/uploads/2020/11/Screenshot_6.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 .pie-pagina{
-  width: 100vw;
+  width: 100%;
   height: 10vh;
-  background-color: brown;
+  background-color: #bce5ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .formulario-cliente{
   display: flex;
   flex-direction: column;
   width: 25vw;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
 
 .formulario-proveedor{
   display: flex;
   flex-direction: column;
   width: 25vw;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   
 
 }
@@ -75,10 +85,40 @@
   display: flex;
   flex-direction: column;
   width: 25vw;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 
 }
 
 .contenedor-formularios{
+  width: 100vw;
   display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
   
 }
+
+.boton{
+  border-radius: 50px;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.logo{
+  width: 5%;
+  height: 100%;
+  margin-right: 150px ;
+}
+
+.informacion-empresa{
+  width: 95%;
+}
+
+.informacion-empresa p{
+  color: #ffffff;
+}
+
